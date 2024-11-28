@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+body {
+  width: 100%;
+}
+header {
+  background-color: white;
+  display: flex;
+  height: 104px;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__personal {
+  display: flex;
+}
+.header__personal p {
+  margin-left: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+nav > a {
+  margin-left: 3rem;
+}
+a:link {
+  text-decoration: none;
+}
+.header__buttonnav {
+  display: flex;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 4px;
+}
+.header__buttonnav > p {
+  margin-right: 1rem;
+  color: white;
+}
