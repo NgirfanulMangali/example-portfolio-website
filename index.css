@@ -3,17 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 body {
   width: 100%;
-  font-family: 'Sora', serif;
-}
-header {
-=======
-
-body {
-  width: 100%;
-  font-family: "Sora", sans-serif;
+  font-family: 'Sora', sans-serif;
 }
 header {
   background-color: white;
@@ -22,7 +14,6 @@ header {
   justify-content: space-around;
   align-items: center;
   font-weight: 700;
->>>>>>> refs/remotes/origin/main
   font-size: 1.25rem;
 }
 .header__personal > a {
@@ -31,13 +22,10 @@ header {
   font-weight: 700;
 }
 nav > a {
-<<<<<<< HEAD
-=======
   margin-left: 3rem;
   color: black;
 }
 a:link {
->>>>>>> refs/remotes/origin/main
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -123,5 +111,5 @@ h1 {
   font-size: 3rem;
 }
 .herosection {
-    height: 716px;
+  height: 716px;
 }
