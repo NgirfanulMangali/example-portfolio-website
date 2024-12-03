@@ -6,7 +6,7 @@
     <title>Example Portfolio</title>
     <link rel="stylesheet" href="index.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
     </style>
   </head>
   <body>
@@ -36,7 +36,7 @@
       <!--The Erly Content Hero Section-->
       <div class="herosection__title">
         <h1>Hello I'am <span class="mangali">Mangali.</span></h1>
-        <h1><span>Frontend</span>Developer</h1>
+        <h1><span>Frontend</span><span class="text__outline">Developer</span></h1>
         <h1>Based In <span>Indonesia</span></h1>
       </div>
       <article>
@@ -78,7 +78,7 @@
         <p>Git</p>
       </div>
       <div class="icon_javascript_myskills">
-        <img src="icon/icon-javscript.png" alt="Icon Javascript" />
+        <img src="icon/icon-javscript-white.png" alt="Icon Javascript" />
         <p>Javascript</p>
       </div>
       <div class="icon_sass_myskills">
@@ -115,58 +115,47 @@
       </div>
       <!--The end content My Skills-->
     </section>
-        <h1>My <span>Experience</span></h1>
-        <div class="experience__at__google">
-          <div>
-            <div>
-              <img src="icon/google.png" alt="Icon Google" />
-              <p>Lead Software Engineer at Google</p>
-            </div>
-            <div><p>Nov2019-Present</p></div>
+    <section class="myexperience">
+      <!--The early content Myexperience-->
+      <h1>My <span>Experience</span></h1>
+      <div class="experience__at__google">
+        <div class="title_experience__at__thecompany">
+          <div class="title_experience__at__thecompany2">
+            <img src="icon/google.png" alt="Icon Google" />
+            <p class="experience_worked_thecompany">Lead Software Engineer at Google</p>
           </div>
-           <article>
-            As a Senior Sofware Engineer at Google, I played a pivotal role in
-             developi innovative solutions for Google's core search algorithms.
-            collaborating with a dynamic team of engineers, I contributed to the
-            enhancement of search accuracy and efficiency, optimizing user
-            experiences for milions of users worldwide.
-          </article>
+          <div class="date_experience"><p>Nov2019-Present</p></div>
         </div>
-        <div class="experience__at__youtube">
-          <div>
-            <div>
-              <img src="icon/youtube.png" alt="Icon Youtube" />
-              <p>Software Engineer at Youtube</p>
-            </div>
-            <div><p>Jan2017-Oct2019</p></div>
-          </div>
-          <article>
-            At Youtube, I served as a Sofware Engineer, focusing on the design
-            and implementation of backend system for the social media giant's
-            dynamic platform. Working on projects that involved large-scale data
-            processing and user engagement features, I leveraged my expertise to
-            ensure seamless functionality and scalability.
-          </article>
-        </div>
-        <div class="experience__at__apple">
-          <div>
-            <div>
-              <img src="icon/apple.png" alt="Icon Apple" />
-              <p>Junior Sofware Engineer at Apple</p>
-            </div>
-            <div><p>Jan2016-Dec2017</p></div>
-          </div>
-          <article>
-            <p>
-              During my tenure at Apple, I held the role of Software Architect,
-              where I played a key role in shaping the architecture of
-              mission-critical software projects. Responsible for designing
-              scalable and efficient systems, I provided technical leadership to
-              a cross-functional team.
-            </p>
-          </article>
+        <article class="text_myexperience">
+          As a Senior Sofware Engineer at Google, I played a pivotal role in developi innovative solutions for Google's core search algorithms. collaborating with a dynamic team of engineers, I contributed to the enhancement of search
+          accuracy and efficiency, optimizing user experiences for milions of users worldwide.
+        </article>
       </div>
-   
+      <div class="experience__at__youtube">
+        <div class="title_experience__at__thecompany">
+          <div class="title_experience__at__thecompany2">
+            <img src="icon/youtube.png" alt="Icon Youtube" />
+            <p class="experience_worked_thecompany">Software Engineer at Youtube</p>
+          </div>
+          <div class="date_experience"><p>Jan2017-Oct2019</p></div>
+        </div>
+        <article class="text_myexperience">
+          At Youtube, I served as a Sofware Engineer, focusing on the design and implementation of backend system for the social media giant's dynamic platform. Working on projects that involved large-scale data processing and user
+          engagement features, I leveraged my expertise to ensure seamless functionaltitle_experience__at__google2ity and scalability.
+        </article>
+      </div>
+      <div class="experience__at__apple">
+        <div class="title_experience__at__thecompany">
+          <div class="title_experience__at__thecompany2">
+            <img src="icon/apple.png" alt="Icon Apple" />
+            <p class="experience_worked_thecompany">Junior Software Engineer at Apple</p>
+          </div>
+          <div class="date_experience"><p>Jan2017-Oct2019</p></div>
+        </div>
+        <article class="text_myexperience">
+          Junior experience_worked_theheld the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided
+          technical leadership to a cross-functional team.
+        </article>
       </div>
       <!--The end content Myexperience-->
     </section>
@@ -174,15 +163,15 @@
       <!--The early content Aboutme-->
       <img src="icon/Group 1000015845.png" alt="ilustration Mangali" />
       <h1>About <span>Me</span></h1>
-      <article>
+      <article class="text_aboutme">
         I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel
         perfect design, and writing clear, readable, highly performant code matters to me.
       </article>
-      <article>
+      <article class="text_aboutme">
         I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after
         starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
       </article>
-      <article>
+      <article class="text_aboutme">
         When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related
         bites and build in public, or you can follow me on GitHub.
       </article>
@@ -190,34 +179,36 @@
     <!--The end content Aboutme-->
     <section class="myproject">
       <!--The early content My Projects-->
-      <h1>My <span>Projects</span></h1>
+      <h1 class="title__myproject">My <span>Projects</span></h1>
       <div>
         <a href="#"><img src="icon/image 771.png" alt="Crypto Screener application" /></a>
-        <span>01</span>
-        <p>Crypto Screener application</p>
+        <span class="title__myproject">01</span>
+        <p class="title__projects">Crypto Screener application</p>
         <article>
           I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
           to specimen book.
         </article>
-        <a href="#"><img src="icon/Property 1=Default.png" alt="link to the project" /></a>
+        <a href="#"><img src="icon/export.png" alt="link to the project" /></a>
       </div>
       <div>
-        <span>02</span>
-        <p>Euphoria - Ecommerce (Apparels) Website Template</p>
+        <span class="title__myproject">02</span>
+        <p class="title__projects">Euphoria - Ecommerce (Apparels) Website Template</p>
         <article>
           I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
           to specimen book. when an unknown printer took a galley of type and scrambled it to specimen book.
         </article>
+        <a href="#"><img src="icon/export.png" alt="link to the project" /></a>
         <a href="#"><img src="icon/image 770.png" alt="image the project" /></a>
       </div>
       <div>
         <a href="#"><img src="icon/image 770 (1).png" alt="" /></a>
-        <span>03</span>
-        <p>Blog Website Template</p>
+        <span class="title__myproject">03</span>
+        <p class="title__projects">Blog Website Template</p>
         <article>
           I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
           to specimen book.
         </article>
+        <a href="#"><img src="icon/export.png" alt="link to the project" /></a>
       </div>
     </section>
     <!--The end content My Projects-->
@@ -239,46 +230,39 @@
       <!--The early content Contact form-->
       <form action="">
         <label for="yname"></label>
-        <input type="text" id="yname" name="yname" value="Your name" />
+        <input type="text" id="yname" name="yname" value="Your name" class="label__form" />
         <label for="email"></label>
-        <input type="text" id="email" name="email" value="Email" />
+        <input type="text" id="email" name="email" value="Email" class="label__form" />
         <label for="ywebsite"></label>
-        <input type="text" id="ywebsite" name="website" value="Your website" />
+        <input type="text" id="ywebsite" name="website" value="Your website" class="label__form" />
         <label for="comment"></label>
-        <input type="text" id="comment" name="comment" value="How can I help?*" />
+        <input type="text" id="comment" name="comment" value="How can I help?*" class="label__form2" />
         <div>
-          <button>Get In Touch</button>
-          <a href="#"
-            ><div><img src="icon/facebook.png" alt="Icon Facebook" /></div
-          ></a>
-          <a href="#"
-            ><div>
-              <img src="icon/Social icon reddit.png" alt="Icon Reddit" /></div
-          ></a>
-          <a href="#"
-            ><div><img src="icon/twitter.png" alt="Icon Twitter" /></div
-          ></a>
-          <a href="#"
-            ><div>
-              <img src="icon/Social icon discord.png" alt="Icon Discord" /></div
-          ></a>
+          <button class="button__contact__form">Get In Touch</button>
+          <a href="#" class="contact__form__link__mediasocial1"><img src="icon/Social icon white.png" alt="Icon Facebook" /></a>
+
+          <a href="#" class="contact__form__link__mediasocial"><img src="icon/Social icon reddit.png" alt="Icon Reddit" /></a>
+
+          <a href="#" class="contact__form__link__mediasocial"><img src="icon/twitter.png" alt="Icon Twitter" /></a>
+
+          <a href="#" class="contact__form__link__mediasocial"><img src="icon/Social icon discord.png" alt="Icon Discord" /></a>
         </div>
       </form>
-      <h1><span>Let's</span>Talk <span>for something special</span></h1>
+      <h1><span>Let's</span><span class="text__outline">talk</span> <span>for something special</span></h1>
       <article>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</article>
-      <p>mangali@gmail.com</p>
-      <p>1234567890</p>
+      <p class="addres__email">mangali@gmail.com</p>
+      <p class="addres__email">1234567890</p>
       <!--The end content Contact form-->
     </section>
-      
+
     <footer>
       <!--The early content footer -->
-      <div>
-        <img src="icon/logo 1.png" alt="Icon Mangali" />
+      <div class="logo__footer">
+        <img src="icon/logo 1 white.png" alt="Icon Mangali" />
         <p>personal</p>
       </div>
-      <div>
-        <p>Copyright &copy; 2022</p>
+      <div class="copyright__footer">
+        <p>Copyright &copy; 2024</p>
         <p>All rights reserved.</p>
       </div>
       <!--The end content footer-->

@@ -18,6 +18,10 @@ article {
   font-weight: 400;
   color: #71717a;
 }
+.text__outline {
+  color: white;
+  text-shadow: 3px 3px 0px black, -3px -3px 0px black, 3px -3px 0px black, -3px 3px 0px black;
+}
 /* about the text on HTML */
 
 /*The early content Header*/
@@ -112,6 +116,10 @@ span {
 
 /* start content my skills*/
 
+.myskills {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
 .icon_git_myskills {
   width: 11.625rem;
   height: 11.625rem;
@@ -132,9 +140,11 @@ span {
   display: grid;
   justify-content: space-around;
   align-items: end;
+  background-color: black;
 }
 .icon_javascript_myskills > p {
   margin-bottom: 3rem;
+  color: white;
 }
 .icon_sass_myskills {
   width: 11.625rem;
@@ -147,4 +157,230 @@ span {
 }
 .icon_sass_myskills > p {
   margin-bottom: 3rem;
+}
+.icon_nestjs_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_nestjs_myskills > p {
+  margin-bottom: 3rem;
+}
+.icon_storybook_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_storybook_myskills > p {
+  margin-bottom: 3rem;
+}
+.icon_nestjs2_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_nestjs2_myskills > p {
+  margin-bottom: 3rem;
+}
+.icon_git2_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_git2_myskills > p {
+  margin-bottom: 3rem;
+}
+.icon_storybook2_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_storybook2_myskills > p {
+  margin-bottom: 3rem;
+}
+.icon_socketio_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_socketio_myskills > p {
+  margin-bottom: 3rem;
+}
+.icon_sass2_myskills {
+  width: 11.625rem;
+  height: 11.625rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: grid;
+  justify-content: space-around;
+  align-items: end;
+}
+.icon_sass2_myskills > p {
+  margin-bottom: 3rem;
+}
+
+/* end content my skills*/
+
+/*start content myexperience*/
+.myexperience {
+  height: 52.25rem;
+  background-color: black;
+}
+.myexperience > h1 {
+  color: white;
+}
+.date_experience {
+  color: #d4d4d8;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.experience_worked_thecompany {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.text_myexperience {
+  color: #d4d4d8;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.experience__at__google {
+  height: 12rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.title_experience__at__thecompany {
+  display: flex;
+  justify-content: space-between;
+}
+.title_experience__at__thecompany2 {
+  display: flex;
+  gap: 2rem;
+}
+.experience__at__youtube {
+  height: 12rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #27272a;
+}
+.experience__at__apple {
+  height: 12rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+/*end content myexperience*/
+
+/*start content aboutme*/
+/*start content aboutme*/
+
+/* start content myprojects */
+.myproject {
+  height: 114rem;
+  background-color: black;
+}
+.title__myproject {
+  color: white;
+}
+.title__projects {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+/* end content myprojects */
+
+/* start content mytestimonial */
+/* end content mytestimonial */
+
+/* start content contactform */
+.label__form {
+  width: 31.25rem;
+  height: 3.5rem;
+  border: 2px solid #71717a;
+  border-radius: 4px;
+  color: #71717a;
+}
+.label__form2 {
+  width: 31.25rem;
+  height: 8.75rem;
+  color: #71717a;
+  border: 2px solid #71717a;
+  border-radius: 4px;
+}
+.addres__email {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.button__contact__form {
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 600;
+  width: 10.8125rem;
+  height: 3.5rem;
+  background-color: black;
+  border-radius: 4px;
+}
+.contact__form__link__mediasocial {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact__form__link__mediasocial1 {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+/* end content contactform */
+
+/*start content footer*/
+
+footer {
+  color: white;
+  background-color: black;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo__footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+}
+.copyright__footer {
+  font-weight: 600;
 }
