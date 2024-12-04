@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
   font-family: 'Sora', sans-serif;
 }
 
@@ -33,6 +32,8 @@ header {
   text-decoration: none;
   color: black;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 nav > a {
   margin-left: 3rem;
@@ -48,13 +49,18 @@ header > a {
   color: black;
   font-weight: 600;
 }
-a > .header__buttonnav {
+.header__buttonnav {
   background-color: black;
   width: 9.5625rem;
   height: 3.5rem;
   padding: 1.25rem 1rem;
   color: white;
   border-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
 }
 /* The end content Header*/
 span {
@@ -62,6 +68,10 @@ span {
   font-size: 3rem;
 }
 /* the start content herossection*/
+.herosection__linkmediasocial {
+  display: flex;
+  gap: 2rem;
+}
 .herosection__title {
   font-size: 3rem;
 }
@@ -305,8 +315,29 @@ span {
 }
 .title__myproject {
   color: white;
+  display: flex;
+  gap: 1rem;
 }
-.title__projects {
+.title__myproject1 {
+  color: white;
+}
+.title__myproject2 {
+  color: white;
+}
+.title__myproject3 {
+  color: white;
+}
+.title__projects1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.title__projects2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.title__projects3 {
   font-size: 2rem;
   font-weight: 700;
   color: white;
@@ -331,7 +362,11 @@ span {
   border: 2px solid #71717a;
   border-radius: 4px;
 }
-.addres__email {
+.addres__email1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.addres__email2 {
   font-size: 1.75rem;
   font-weight: 600;
 }
@@ -383,4 +418,322 @@ footer {
 }
 .copyright__footer {
   font-weight: 600;
+}
+/*end content footer*/
+
+/*Media query for laptop*/
+
+@media (min-width: 1440px) {
+  /*The start content Header*/
+  header {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    column-gap: 20px;
+    height: 6.5rem;
+    align-items: center;
+  }
+  .header__personal {
+    grid-column: 3 / 5;
+  }
+  nav {
+    grid-column: 8 / 14;
+  }
+  .header__buttonnav {
+    grid-column: 17 / 18;
+  }
+  /*end content Header*/
+  /*start content herosection*/
+  .herosection {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 44.75rem;
+  }
+  .herosection__title {
+    grid-column: 4 / 11;
+    grid-row: 6 / 9;
+  }
+  .text__outline {
+    margin-left: 1rem;
+  }
+  .hero__section__article {
+    grid-column: 4 / 9;
+    grid-row: 10 / 12;
+  }
+  .image_ilustration_mangali {
+    grid-column: 7 / 19;
+    grid-row: 3 / 17;
+  }
+  .herosection__linkmediasocial {
+    grid-column: 4 / 6;
+    grid-row: 14 / 16;
+  }
+  /*end content herosection*/
+  /*The early content My Skills*/
+  .myskills {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 45.5rem;
+  }
+  .title_my_skills {
+    grid-column: 8 / 12;
+    grid-row: 3 / 5;
+  }
+  .icon_git_myskills {
+    grid-column: 3 / 4;
+    grid-row: 6 / 11;
+  }
+  .icon_javascript_myskills {
+    grid-column: 5/ 8;
+    grid-row: 6 / 11;
+  }
+  .icon_sass_myskills {
+    grid-column: 9 / 11;
+    grid-row: 6 / 11;
+  }
+  .icon_nestjs_myskills {
+    grid-column: 12 / 15;
+    grid-row: 6 / 11;
+  }
+  .icon_storybook_myskills {
+    grid-column: 15 / 18;
+    grid-row: 6 / 11;
+  }
+  .icon_nestjs2_myskills {
+    grid-column: 3 / 5;
+    grid-row: 11 / 15;
+  }
+  .icon_git2_myskills {
+    grid-column: 5/ 8;
+    grid-row: 11 / 15;
+  }
+  .icon_storybook2_myskills {
+    grid-column: 9 / 11;
+    grid-row: 11 / 15;
+  }
+  .icon_socketio_myskills {
+    grid-column: 12 / 15;
+    grid-row: 11 / 15;
+  }
+  .icon_sass2_myskills {
+    grid-column: 15 / 18;
+    grid-row: 11 / 15;
+  }
+  /*The end content My Skills*/
+  /*The early content Myexperience*/
+  .myexperience {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 59.75rem;
+  }
+  .text_myexperience {
+    margin-left: 2rem;
+  }
+  .title__myexperience {
+    grid-column: 9 / 13;
+    grid-row: 3 / 4;
+  }
+  .experience__at__google {
+    grid-column: 6 / 17;
+    grid-row: 5 / 8;
+    width: 73rem;
+  }
+  .title_experience__at__thecompany {
+    margin: 1rem;
+  }
+  .experience__at__youtube {
+    grid-column: 6 / 17;
+    grid-row: 9 / 12;
+    width: 73rem;
+  }
+  .experience__at__apple {
+    grid-column: 6 / 17;
+    grid-row: 13 / 16;
+    width: 73rem;
+  }
+  /*The end content Myexperience*/
+  /*The early content Aboutme*/
+  .aboutme {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 43.25rem;
+  }
+  .picture__aboutme {
+    grid-column: 5 / 14;
+    grid-row: 4 / 10;
+  }
+  .title__aboutme {
+    grid-column: 16 / 17;
+    grid-row: 4 / 5;
+  }
+  .text_aboutme1 {
+    grid-column: 16 / 17;
+    grid-row: 5 / 6;
+  }
+  .text_aboutme2 {
+    grid-column: 16 / 17;
+    grid-row: 6 / 8;
+  }
+  .text_aboutme3 {
+    grid-column: 16 / 17;
+    grid-row: 8 / 10;
+  }
+  /*The end content Aboutme*/
+  /*The early content My Projects*/
+  .myproject {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 114rem;
+  }
+  .title__myproject {
+    grid-column: 8 / 11;
+    grid-row: 2 / 3;
+  }
+  .picture__project1 {
+    grid-column: 3 / 5;
+    grid-row: 4 / 8;
+    margin-left: 3rem;
+  }
+  .title__myproject1 {
+    grid-column: 8 / 8;
+    grid-row: 4 / 4;
+    margin-top: 2rem;
+  }
+  .title__projects1 {
+    grid-column: 8 / 15;
+    grid-row: 5 / 6;
+  }
+  .text__project1 {
+    grid-column: 8 / 10;
+    grid-row: 6 / 7;
+  }
+  .title__myproject2 {
+    grid-column: 3 / 3;
+    grid-row: 9 / 9;
+    margin-left: 3rem;
+  }
+  .title__projects2 {
+    grid-column: 3 / 8;
+    grid-row: 10 / 10;
+    margin-left: 3rem;
+  }
+  .text__project2 {
+    grid-column: 3 / 5;
+    grid-row: 11 / 13;
+    margin-left: 3rem;
+  }
+  .picture__project2 {
+    grid-column: 8 / 10;
+    grid-row: 9 / 14;
+  }
+  .picture__project3 {
+    grid-column: 3 / 5;
+    grid-row: 14 / 18;
+    margin-left: 3rem;
+  }
+  .title__myproject3 {
+    grid-column: 8 / 8;
+    grid-row: 14 / 14;
+    margin-top: 2rem;
+  }
+  .title__projects3 {
+    grid-column: 8 / 15;
+    grid-row: 15 / 15;
+  }
+  .text__project3 {
+    grid-column: 8 / 10;
+    grid-row: 16 / 17;
+  }
+  /*The end content My Projects*/
+  /*The early content My Testimonial*/
+  .testimonial {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 44.625rem;
+  }
+  .title__testimonial {
+    grid-column: 9 / 12;
+    grid-row: 3 / 4;
+  }
+  .picture__testimonial1 {
+    grid-column: 4 / 7;
+    grid-row: 6 / 16;
+  }
+  .picture__testimonial2 {
+    grid-column: 8 / 12;
+    grid-row: 6 / 16;
+  }
+  .picture__testimonial3 {
+    grid-column: 12 / 17;
+    grid-row: 6 / 16;
+  }
+  /*The end content My Testimonial*/
+  /*The early content Contact form*/
+  .contactform {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 37.75rem;
+  }
+  form {
+    display: grid;
+    gap: 1rem;
+    grid-column: 5 / 8;
+    grid-row: 3 / 14;
+  }
+  .link__mediasocial__contactform {
+    display: flex;
+    gap: 25px;
+    grid-column: 5 / 8;
+    grid-row: 14 / 16;
+  }
+  .title__contactform {
+    grid-column: 12 / 12;
+    grid-row: 5 / 8;
+  }
+  .text__contactform {
+    grid-column: 12 / 15;
+    grid-row: 8 / 9;
+  }
+  .addres__email1 {
+    grid-column: 12 / 13;
+    grid-row: 10 / 11;
+  }
+  .addres__email2 {
+    grid-column: 12 / 13;
+    grid-row: 11 / 12;
+  }
+  footer {
+    height: 6.25rem;
+  }
+  .logo__footer {
+    margin-left: 4.375rem;
+  }
+  .copyright__footer {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1rem;
+    margin-right: 4rem;
+  }
 }
