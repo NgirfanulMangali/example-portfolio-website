@@ -4,4 +4,8 @@
 
 @theme {
     --font-sora: 'Sora', sans-serif;
+
+
+    --animate-pulse: pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    --animate-pulse-2: pulse 10s cubic-bezier(0.9, 0, 0.9, 1) infinite;
 }
