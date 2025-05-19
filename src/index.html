@@ -11,18 +11,34 @@
   <body class="font-sora ">
 
     <!--the early content Header-->
-    <div class="flex justify-between items-center fixed top-0 right-0 left-0 z-10 bg-[#ffffff] w-full h-[72px] px-5">
-      <div class="flex items-center">
+    <div class="flex justify-between items-center fixed top-0 right-0 left-0 z-10 bg-[#ffffff] w-full h-[72px] px-5" >
+      
+       <a href="#main" class="flex items-center mt-2">
         <img src="/icon/logo 1.png" alt="Logo Mangali" class="h-8 w-8" />
         <p class="ml-2 font-bold leading-[24px] text-[20px]">Ngirfanul</p>
+       </a>
+      
+      <div >
+      <img src="/icon/hamburger toggle.svg" alt="hamburger menu" class="h-6 w-6" id="hamburger" />
       </div>
-      <div>
-      <img src="/icon/hamburger toggle.svg" alt="hamburger menu" class="h-6 w-6" />
+    </div>
+    <!--modal popup-->
+    <div>
+      <div class="fixed top-0 right-0 left-73 z-20 bg-[#f4f4f5] w-40 h-90 hidden" id="modal">
+        <div class="flex justify-end mt-5 mr-5">
+          <img src="/icon/close.png" alt="close modal" id="close" />
+        </div>
+        <div class="flex flex-col gap-5 mt-20 ml-5" >
+          <a href="#aboutme" class="text-[1.25rem] leading-[1.5rem] font-bold hover:bg-[#e4e4e7]">About Me</a>
+          <a href="#skills" class="text-[1.25rem] leading-[1.5rem] font-bold hover:bg-[#e4e4e7]">Skills</a>
+          <a href="#myprojects" class="text-[1.25rem] leading-[1.5rem] font-bold hover:bg-[#e4e4e7]">Projects</a>
+          <a href="#contactme" class="text-[1.25rem] leading-[1.5rem] font-bold hover:bg-[#e4e4e7]" >Contact Me</a>
+        </div>
       </div>
     </div>
    
     <!--The early content Hero Section-->
-    <section class="h-[54.25rem] mt-20 mx-6"> 
+    <section class="h-[54.25rem] mt-20 mx-6" id="main" > 
           <img src="/icon/ilustration human mb.svg" alt="ilustration mangali" />
           <div class="mt-10">
             <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-2 "data-aos="fade-right" >Hello I'am <span class="font-extrabold ml-5 ">Ngirfanul.</span></h1>
@@ -40,7 +56,7 @@
               <img src="/icon/linkedin.svg" alt="Link linkedin Mangali" class="hover:brightness-0 hover:invert"/>
             </div>
           </a>
-          <a href="#">
+          <a href="#" id="skills">
             <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center  hover:bg-black " data-aos="fade-left">
                 <img src="/icon/twitter.png" alt="Link Twitter Mangali" class="hover:brightness-0 hover:invert"/>
             </div>
@@ -49,7 +65,7 @@
     </section>
 
     <!--The early content My Skills-->
-    <section class="h-[900px]">
+    <section class="h-[900px]" >
       <h1 class="text-[1.75rem] leading-[32px] text-center mb-10">My <span class="font-extrabold">Skills</span></h1>
       <h2 class="text-[1.375rem] leading-[2rem] text-center mb-10">Frontend</h2>
       <!--frontend-->
@@ -121,20 +137,20 @@
             <img src="/icon/ubuntu.png" alt="Icon Ubuntu" class="animate-pulse hover:brightness-0 hover:invert"/>
             <p>Ubuntu</p>
           </div>
-          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black"  id="aboutme">
             <img src="/icon/github-copilot-icon.png" alt="Icon github copilot" class="hover:brightness-0 hover:invert"/>
             <p>Copilot</p>
           </div>
           <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
             <img src="/icon/chat-gpt.png" alt="Icon Chat GPT" class="hover:brightness-0 hover:invert"/>
-            <p>Chat GPT</p>
+            <p >Chat GPT</p>
           </div>
       </div>
     </section>
 
     <!--about me-->
 
-    <section class="h-[1278px] bg-[#000000]">
+    <section class="h-[1278px] bg-[#000000]" >
       <img src="/icon/column.png" alt="ilustration Mangali" class="mx-auto" data-aos="zoom-in" />
       <h1 class="text-[1.75rem] leading-[32px] ml-9 text-[#ffffff] my-15" data-aos="zoom-in">About <span class="font-extrabold">Me</span></h1>
       <article class="ml-9 text-[#d4d4d8]" data-aos="zoom-in">
@@ -145,14 +161,14 @@
         I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after
         starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
       </article>
-      <article class="ml-9 text-[#d4d4d8]" data-aos="zoom-in">
+      <article class="ml-9 text-[#d4d4d8]" data-aos="zoom-in" id="myprojects">
         When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related
         bites and build in public, or you can follow me on GitHub.
       </article>
     </section>
    
     <!--My Projects-->
-    <section class="h-[2100px]">
+    <section class="h-[2100px]" >
       <div class="ml-7" >
             <h1 class="text-[1.75rem] leading-[32px] my-15 text-center">My <span class="font-extrabold">Projects</span></h1>
             <img src="/icon/image 771.png" alt="Crypto Screener application" data-aos="zoom-out"/>
@@ -184,7 +200,7 @@
               I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
               to specimen book.
             </article>
-            <a href="#"><img src="/icon/export.png" alt="link to the project" class="mt-5"/></a>
+            <a href="#"><img src="/icon/export.png" alt="link to the project" class="mt-5" id="contactme"/></a>
         </div>
     </section>
     
@@ -241,6 +257,7 @@
         </div>
       </div>
       <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+      <script src="/index.js"></script>
       <script>
         AOS.init();
       </script>
