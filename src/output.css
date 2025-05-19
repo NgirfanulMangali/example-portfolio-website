@@ -16,10 +16,12 @@
     --font-weight-extrabold: 800;
     --tracking-wider: 0.05em;
     --ease-out: cubic-bezier(0, 0, 0.2, 1);
+    --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
     --animate-pulse: pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-sora: 'Sora', sans-serif;
+    --animate-pulse-2: pulse 10s cubic-bezier(0.9, 0, 0.9, 1) infinite;
     --animate-slideRight: slideRight 0.7s ease-out forwards;
     --animate-slideLeft: slideLeft 0.7s ease-out forwards;
   }
@@ -323,11 +325,17 @@
   .h-\[48px\] {
     height: 48px;
   }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[54\.25rem\] {
     height: 54.25rem;
   }
   .h-\[56px\] {
     height: 56px;
+  }
+  .h-\[60px\] {
+    height: 60px;
   }
   .h-\[72px\] {
     height: 72px;
@@ -395,8 +403,14 @@
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
+  .animate-ping {
+    animation: var(--animate-ping);
+  }
   .animate-pulse {
     animation: var(--animate-pulse);
+  }
+  .animate-pulse-2 {
+    animation: var(--animate-pulse-2);
   }
   .animate-slideLeft {
     animation: var(--animate-slideLeft);
@@ -430,6 +444,9 @@
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -725,6 +742,12 @@
   syntax: "<percentage>";
   inherits: false;
   initial-value: 100%;
+}
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
 @keyframes pulse {
   50% {
