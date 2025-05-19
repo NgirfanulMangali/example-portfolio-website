@@ -8,7 +8,13 @@ document.getElementById("close").addEventListener("click", function () {
 });
 
 
-window.addEventListener("scroll", function () {
-    document.getElementById("modal").style.display = "none";
-    document.getElementById("hamburger").style.display = "block";
-});
+if (window.innerWidth < 640) {
+    window.addEventListener("scroll", function () {
+        document.getElementById("modal").style.display = "none";
+        document.getElementById("hamburger").style.display = "block";
+    });
+}
+
+
+
+
