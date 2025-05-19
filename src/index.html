@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ngirfanul Mangali</title>
     <link href="./output.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body class="font-sora ">
 
@@ -23,9 +25,9 @@
     <section class="h-[54.25rem] mt-20 mx-6"> 
           <img src="/icon/ilustration human mb.svg" alt="ilustration mangali" />
           <div class="mt-10">
-            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-2 ">Hello I'am <span class="font-extrabold ml-5 ">Ngirfanul.</span></h1>
-            <h1 class="mb-2"><span class="text-[1.75rem] leading-[32px] font-extrabold tracking-wider">Frontend</span><span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] text-[1.75rem] leading-[32px] font-extrabold ml-2">Developer</span></h1>
-            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-10">Based In <span class="text-[1.75rem] leading-[32px] font-extrabold ml-5">Indonesia</span></h1>
+            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-2 "data-aos="fade-right" >Hello I'am <span class="font-extrabold ml-5 ">Ngirfanul.</span></h1>
+            <h1 class="mb-2" data-aos="fade-left" ><span class="text-[1.75rem] leading-[32px] font-extrabold tracking-wider">Frontend</span><span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] text-[1.75rem] leading-[32px] font-extrabold ml-2">Developer</span></h1>
+            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-10" data-aos="fade-right">Based In <span class="text-[1.75rem] leading-[32px] font-extrabold ml-5">Indonesia</span></h1>
           </div>
           <article class="text-[1rem] leading-[24px] text-[#71717A]">
            I'm Mangali Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
@@ -34,12 +36,12 @@
         
         <div class="flex gap-4 mt-10">
           <a href="#">
-            <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black">
+            <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black" data-aos="fade-right">
               <img src="/icon/linkedin.svg" alt="Link linkedin Mangali" class="hover:brightness-0 hover:invert"/>
             </div>
           </a>
           <a href="#">
-            <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center  hover:bg-black ">
+            <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center  hover:bg-black " data-aos="fade-left">
                 <img src="/icon/twitter.png" alt="Link Twitter Mangali" class="hover:brightness-0 hover:invert"/>
             </div>
           </a>
@@ -51,7 +53,8 @@
       <h1 class="text-[1.75rem] leading-[32px] text-center mb-10">My <span class="font-extrabold">Skills</span></h1>
       <h2 class="text-[1.375rem] leading-[2rem] text-center mb-10">Frontend</h2>
       <!--frontend-->
-      <div class="grid grid-cols-3 gap-4  justify-items-center ml-3">
+      <div class="grid grid-cols-3 gap-4  justify-items-center ml-3 " data-aos="fade-up"
+      data-aos-duration="1000">
         
         <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
           <img src="/icon/html (1).png" alt="Icon HTML5" class="hover:brightness-0 hover:invert"/>
@@ -65,22 +68,29 @@
           <img src="/icon/icon-javscript.png" alt="Icon Javascript" class="hover:brightness-0 hover:invert"/>
           <p>Javascript</p>
         </div>
-        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">
           <img src="/icon/icon-react.png" alt="Icon React" class="animate-pulse hover:brightness-0 hover:invert"/>
           <p>React</p>
         </div>
-        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">
           <img src="/icon/icon-tailwindcss.svg" alt="Icon Tailwindcss" class="hover:brightness-0 hover:invert"/>
           <p>TailwindCSS</p>
         </div>
-        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">
           <img src="/icon/icon-typescript.png" alt="Icon TypeScript" class="animate-pulse hover:brightness-0 hover:invert"/>
           <p>TypeScript</p>
         </div>
       </div>
       <h2 class="text-[1.375rem] leading-[2rem] my-10 text-center">Tools</h2>
       <!--Tools-->
-      <div class="grid grid-cols-3 gap-4 justify-items-center ml-3">
+      <div class="grid grid-cols-3 gap-4 justify-items-center ml-3" data-aos="fade-up"
+      data-aos-duration="1000">
           <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
             <img src="/icon/jest-js-icon.png" alt="Icon Jest" class="hover:brightness-0 hover:invert"/>
             <p>Jest</p>
@@ -93,15 +103,21 @@
             <img src="/icon/icon-figma.png" alt="Icon figma" class="hover:brightness-0 hover:invert"/>
             <p>Figma</p>
           </div>
-          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
             <img src="/icon/github.png" alt="Icon GitHub" class="animate-pulse hover:brightness-0 hover:invert"/>
             <p>GitHub</p>
           </div>
-          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="500">
             <img src="/icon/visual-studio-code-icon.png" alt="Icon VS Code" class="hover:brightness-0 hover:invert"/>
             <p>VS Code</p>
           </div>
-          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+          <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="500">
             <img src="/icon/ubuntu.png" alt="Icon Ubuntu" class="animate-pulse hover:brightness-0 hover:invert"/>
             <p>Ubuntu</p>
           </div>
@@ -119,17 +135,17 @@
     <!--about me-->
 
     <section class="h-[1278px] bg-[#000000]">
-      <img src="/icon/column.png" alt="ilustration Mangali" class="mx-auto" />
-      <h1 class="text-[1.75rem] leading-[32px] ml-9 text-[#ffffff] my-15">About <span class="font-extrabold">Me</span></h1>
-      <article class="ml-9 text-[#d4d4d8]">
+      <img src="/icon/column.png" alt="ilustration Mangali" class="mx-auto" data-aos="zoom-in" />
+      <h1 class="text-[1.75rem] leading-[32px] ml-9 text-[#ffffff] my-15" data-aos="zoom-in">About <span class="font-extrabold">Me</span></h1>
+      <article class="ml-9 text-[#d4d4d8]" data-aos="zoom-in">
         I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel
         perfect design, and writing clear, readable, highly performant code matters to me.
       </article>
-      <article class="ml-9 text-[#d4d4d8] my-10">
+      <article class="ml-9 text-[#d4d4d8] my-10" data-aos="zoom-in">
         I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after
         starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.
       </article>
-      <article class="ml-9 text-[#d4d4d8]">
+      <article class="ml-9 text-[#d4d4d8]" data-aos="zoom-in">
         When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related
         bites and build in public, or you can follow me on GitHub.
       </article>
@@ -137,9 +153,9 @@
    
     <!--My Projects-->
     <section class="h-[2100px]">
-      <div class="ml-7">
+      <div class="ml-7" >
             <h1 class="text-[1.75rem] leading-[32px] my-15 text-center">My <span class="font-extrabold">Projects</span></h1>
-            <img src="/icon/image 771.png" alt="Crypto Screener application"/>
+            <img src="/icon/image 771.png" alt="Crypto Screener application" data-aos="zoom-out"/>
             <span class="text[1.5rem] leading-[1.75rem] font-extrabold">01</span>
             <p class="text-[1.25rem] leading-[1.5rem] my-5">Crypto Screener application</p>
             <article>
@@ -149,7 +165,7 @@
             <a href="#"><img src="/icon/export.png" alt="link to the project" class="mt-5"/></a>
       </div>
         <div class="mt-5">
-            <img src="/icon/image 770.png" alt="image the project" />
+            <img src="/icon/image 770.png" alt="image the project" data-aos="zoom-out"/>
             <div class="ml-7">
               <span class="text[1.5rem] leading-[1.75rem] font-extrabold">02</span>
               <p class="text-[1.25rem] leading-[1.5rem] my-5">Euphoria - Ecommerce (Apparels) Website Template</p>
@@ -161,7 +177,7 @@
             </div>
         </div>
         <div class="ml-7">
-            <a href="#" class="picture__project3"><img src="/icon/image 770 (1).png" alt="image__project" /></a>
+            <a href="#" class="picture__project3"><img src="/icon/image 770 (1).png" alt="image__project" data-aos="zoom-out"/></a>
             <span class="text[1.5rem] leading-[1.75rem] font-extrabold">03</span>
             <p class="text-[1.25rem] leading-[1.5rem] my-5">Blog Website Template</p>
             <article>
@@ -205,7 +221,7 @@
               </a>
             </div>
       </div>
-      <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5">Let's<span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] mx-2 tracking-wider">talk</span>for</h1> 
+      <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5"  >Let's<span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] mx-2 tracking-wider">talk</span>for</h1> 
       <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5 my-3 tracking-wider">something special</h1>
       <article class="text-[#71717a] my-5 mx-5">I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</article>
       <p class="font-bold text-[1.25rem] leading-[1.5rem] ml-5 mt-5">mangali@gmail.com</p>
@@ -224,5 +240,10 @@
           <p class="text-[0.75rem] text-[#ffffff]">All rights reserved.</p>
         </div>
       </div>
+      <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
   </body>
 </html>
