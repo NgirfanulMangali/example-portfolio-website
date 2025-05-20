@@ -8,27 +8,29 @@
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
   </head>
-  <body class="font-sora ">
+  <body class="font-sora relative">
 
     <!--the early content Header-->
-    <div class=" fixed top-0 right-0 left-0 z-10 bg-[#ffffff] h-[72px] px-5 xxl: text-[1.25rem] font-semibold leading-[1.5rem] flex justify-around items-center h-[104px]">
+    <div class="backdrop-blur bg-white/80 flex justify-between items-center fixed top-0 right-0 left-0 z-10 h-[72px] px-5 xll:text-[1.25rem] xll:font-semibold xll:leading-[1.5rem] xll:flex  xll:justify-around xll:items-center xll:h-[104px] xll:fixed xll:top-0 xll:right-0 xll:left-0 xll:z-10">
           <div>
               <a href="#main" class="flex justify-center items-center">
                 <img src="/icon/logo 1.png" alt="Logo Mangali" class="h-8 w-8" />
                 <p class="ml-2 font-semibold leading-[1.5rem] text-[1.25rem] animate-pulse">Ngirfanul</p>
               </a>
           </div>
-          <ul class="flex gap-6">
+          <ul class="flex gap-6 max-md:hidden">
               <a href="#aboutme"><li>AboutMe</li></a>
               <a href="#skills"><li>Skills</li></a>
               <a href="#myprojects"><li>Projects</li></a>
               <a href="#contactme"><li>ContactMe</li></a>
           </ul>
-          <div class="bg-[#000000] rounded-[4px] w-[153px] h-[56px] text-[#ffffff] flex justify-center items-center gap-4">
+          <div class="bg-[#000000] rounded-[4px] w-[153px] h-[56px] text-[#ffffff] flex justify-center items-center gap-4 max-md:hidden">
                 <p>Resume</p>
                 <img src="/icon/Icon.png" alt="download icon">
           </div>
-            <img src="/icon/hamburger toggle.svg" alt="hamburger menu" class="h-6 w-6 xxl: hidden" id="hamburger" />
+          <div class="md:hidden">
+            <img src="/icon/hamburger toggle.svg" alt="hamburger menu" class="h-6 w-6" id="hamburger" />
+          </div>
             
     </div>
     <!--modal popup-->
@@ -45,21 +47,21 @@
         </div>
       </div>
     </div>
-   
+    
     <!--The early content Hero Section-->
-    <section class="h-[54.25rem] pt-20 mx-6 xxl: grid grid-flow-col grid-rows-12 grid-cols-12 gap-2" id="main" > 
-          <img src="/icon/ilustration human mb.svg" alt="ilustration mangali" class="xxl: h-[596px] w-[889px] col-start-6 col-end-12 row-start-2 row-end-4"/>
-          <div class="mt-10 xxl: row-start-3 row-end-6 col-end-8 col-start-2">
-            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-2 xxl: text-[3rem] leading-[3.5rem]"data-aos="fade-right" >Hello I'am <span class="font-extrabold ml-5 ">Ngirfanul.</span></h1>
-            <h1 class="mb-2 xxl: py-4" data-aos="fade-left" ><span class="text-[1.75rem] leading-[32px] font-extrabold tracking-wider xxl: text-[3rem] leading-[3.5rem]">Frontend</span><span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] text-[1.75rem] leading-[32px] font-extrabold ml-2 xxl: text-[3rem] leading-[3.5rem]">Developer</span></h1>
-            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-10 xxl: text-[3rem] leading-[3.5rem]" data-aos="fade-right">Based In <span class="text-[1.75rem] leading-[32px] font-extrabold ml-5 xxl: text-[3rem] leading-[3.5rem]">Indonesia</span></h1>
+    <section class="h-[54.25rem] pt-20 mx-6 xxl:gridgrid-flow-colgrid-rows-12grid-cols-12gap-2" id="main" > 
+          <img src="/icon/ilustration human mb.svg" alt="ilustration mangali" class="xxl:h-[596px]w-[889px]col-start-6col-end-12row-start-2row-end-4 lg:col-end-13h-[400px]w-[700px]"/>
+          <div class="mt-10 xxl:row-start-3 row-end-6 col-end-8 col-start-2">
+            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-2 xll:text-[3rem] xll:leading-[3.5rem] lg:leading-[3.5rem]"data-aos="fade-right" >Hello I'am <span class="font-extrabold ml-5 ">Ngirfanul.</span></h1>
+            <h1 class="mb-2" data-aos="fade-left" ><span class="text-[1.75rem] leading-[32px] font-extrabold tracking-wider xxl:text-[3rem]leading-[3.5rem] lg:text-[40px]leading-[3.5rem]">Frontend</span><span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] text-[1.75rem] leading-[32px] font-extrabold ml-2 xxl:text-[3rem]leading-[3.5rem] lg:text-[40px]leading-[3.5rem]">Developer</span></h1>
+            <h1 class="text-[1.75rem] leading-[32px] tracking-wider mb-10 xxl:text-[3rem]leading-[3.5rem] lg:text-[40px]leading-[3.5rem]" data-aos="fade-right">Based In <span class="text-[1.75rem] leading-[32px] font-extrabold ml-5 xxl:text-[3rem]leading-[3.5rem] lg:text-[40px]leading-[3.5rem]">Indonesia</span></h1>
           </div>
-          <article class="text-[1rem] leading-[24px] text-[#71717A] xxl: row-start-7 row-end-9 col-end-7 col-start-2 text-[1rem]">
+          <article class="text-[1rem] leading-[24px] text-[#71717A] xxl:row-start-7row-end-9 col-end-7col-start-2 lg:text-[14px]">
            I'm Mangali Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
             to specimen book.
           </article>
         
-        <div class="flex gap-4 mt-10 xxl: row-start-9 col-start-2">
+        <div class="flex gap-4 mt-10 xxl:row-start-10col-start-2">
           <a href="#">
             <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black" data-aos="fade-right">
               <img src="/icon/linkedin.svg" alt="Link linkedin Mangali" class="hover:brightness-0 hover:invert"/>
@@ -74,14 +76,14 @@
     </section>
 
     <!--The early content My Skills-->
-    <section class="h-[900px]" >
-      <h1 class="text-[1.75rem] leading-[32px] text-center mb-10">My <span class="font-extrabold">Skills</span></h1>
-      <h2 class="text-[1.375rem] leading-[2rem] text-center mb-10">Frontend</h2>
+    <section class="h-[900px] xll:h-[1500px]" >
+      <h1 class=" text-[1.75rem] leading-[32px] text-center mb-10 xxl:text-[3rem]leading-[3.5rem]">My <span class="font-extrabold">Skills</span></h1>
+      <h2 class="text-[1.375rem] leading-[2rem] text-center mb-10 xll:text-[30px]">Frontend</h2>
       <!--frontend-->
       <div class="grid grid-cols-3 gap-4  justify-items-center ml-3 " data-aos="fade-up"
       data-aos-duration="1000">
         
-        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black">
+        <div class="w-[110px] h-[110px] rounded-[1px] border border-black flex flex-col items-center justify-center hover:bg-black xll:w-[186px]h-[186px]">
           <img src="/icon/html (1).png" alt="Icon HTML5" class="hover:brightness-0 hover:invert"/>
           <p>HTML5</p>
         </div>
@@ -112,7 +114,7 @@
           <p>TypeScript</p>
         </div>
       </div>
-      <h2 class="text-[1.375rem] leading-[2rem] my-10 text-center">Tools</h2>
+      <h2 class="text-[1.375rem] leading-[2rem] my-10 text-center xll: text-[30px]">Tools</h2>
       <!--Tools-->
       <div class="grid grid-cols-3 gap-4 justify-items-center ml-3" data-aos="fade-up"
       data-aos-duration="1000">
