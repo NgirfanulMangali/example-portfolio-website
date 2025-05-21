@@ -597,6 +597,9 @@
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
   }
@@ -933,6 +936,11 @@
       grid-row-end: 9;
     }
   }
+  .xll\:float-left {
+    @media (width >= 90rem) {
+      float: left;
+    }
+  }
   .xll\:my-20 {
     @media (width >= 90rem) {
       margin-block: calc(var(--spacing) * 20);
@@ -948,14 +956,34 @@
       margin-top: calc(var(--spacing) * 4);
     }
   }
+  .xll\:mt-8 {
+    @media (width >= 90rem) {
+      margin-top: calc(var(--spacing) * 8);
+    }
+  }
+  .xll\:mt-10 {
+    @media (width >= 90rem) {
+      margin-top: calc(var(--spacing) * 10);
+    }
+  }
   .xll\:mt-20 {
     @media (width >= 90rem) {
       margin-top: calc(var(--spacing) * 20);
     }
   }
+  .xll\:mt-30 {
+    @media (width >= 90rem) {
+      margin-top: calc(var(--spacing) * 30);
+    }
+  }
   .xll\:mt-60 {
     @media (width >= 90rem) {
       margin-top: calc(var(--spacing) * 60);
+    }
+  }
+  .xll\:mt-auto {
+    @media (width >= 90rem) {
+      margin-top: auto;
     }
   }
   .xll\:flex {
@@ -983,9 +1011,19 @@
       height: 186px;
     }
   }
+  .xll\:h-\[572px\] {
+    @media (width >= 90rem) {
+      height: 572px;
+    }
+  }
   .xll\:h-\[596px\] {
     @media (width >= 90rem) {
       height: 596px;
+    }
+  }
+  .xll\:h-\[692px\] {
+    @media (width >= 90rem) {
+      height: 692px;
     }
   }
   .xll\:h-\[1500px\] {
@@ -1001,6 +1039,11 @@
   .xll\:w-\[186px\] {
     @media (width >= 90rem) {
       width: 186px;
+    }
+  }
+  .xll\:w-\[525px\] {
+    @media (width >= 90rem) {
+      width: 525px;
     }
   }
   .xll\:w-\[889px\] {
@@ -1124,10 +1167,30 @@
       border-width: 2px;
     }
   }
+  .xll\:text-center {
+    @media (width >= 90rem) {
+      text-align: center;
+    }
+  }
   .xll\:text-2xl {
     @media (width >= 90rem) {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .xll\:text-\[1\.1rem\] {
+    @media (width >= 90rem) {
+      font-size: 1.1rem;
+    }
+  }
+  .xll\:text-\[1\.2rem\] {
+    @media (width >= 90rem) {
+      font-size: 1.2rem;
+    }
+  }
+  .xll\:text-\[1\.5rem\] {
+    @media (width >= 90rem) {
+      font-size: 1.5rem;
     }
   }
   .xll\:text-\[1\.25rem\] {
@@ -1138,6 +1201,16 @@
   .xll\:text-\[1\.875rem\] {
     @media (width >= 90rem) {
       font-size: 1.875rem;
+    }
+  }
+  .xll\:text-\[1rem\] {
+    @media (width >= 90rem) {
+      font-size: 1rem;
+    }
+  }
+  .xll\:text-\[2rem\] {
+    @media (width >= 90rem) {
+      font-size: 2rem;
     }
   }
   .xll\:text-\[3rem\] {
