@@ -218,50 +218,51 @@
     </section>
     
     <!--Contact form-->
-    <section class="h-[840px]">
+    <section class="h-[840px] xll:grid xll:grid-flow-col xll:grid-rows-12 xll:grid-cols-12 xll:gap-2">
      
-      <form action="" class="space-y-4 ml-5">
+      <form action="" class="space-y-4 ml-5 xll:flex xll:flex-col xll:col-start-2 xll:row-start-3 xll:row-end-9">
         <label for="yname"></label>
         <input type="text" id="yname" name="yname"  placeholder="Your name"
-        class="w-[343px] h-[56px] border border-[#000000] rounded placeholder: pl-7" />
+        class="w-[343px] h-[56px] border border-[#000000] rounded placeholder: pl-7 xll:w-[500px] xll:h-[56px]" />
         <label for="email"></label>
         <input type="text" id="email" name="email"  placeholder="Email"
-        class="w-[343px] h-[56px] border border-[#000000] rounded placeholder: pl-7" />
+        class="w-[343px] h-[56px] border border-[#000000] rounded placeholder: pl-7 xll:w-[500px] xll:h-[56px]" />
         <label for="ywebsite"></label>
         <input type="text" id="ywebsite" name="website"   placeholder="Your website (if exists)"
-        class="w-[343px] h-[56px] border border-[#000000] rounded placeholder: pl-7" />
+        class="w-[343px] h-[56px] border border-[#000000] rounded placeholder: pl-7 xll:w-[500px] xll:h-[56px]" />
         <label for="comment"></label>
         <input type="text" id="comment" name="comment"  rows="4" placeholder="How can I help?*"
-        class="w-[343px] h-[140px] border border-[#000000] rounded placeholder: pl-7 pb-18" />
+        class="w-[343px] h-[140px] border border-[#000000] rounded placeholder: pl-7 pb-18 xll:w-[500px] xll:h-[140px]" />
       </form>
 
-      <div class="ml-5 my-5">
-            <button class="w-[139px] h-[48px] bg-[#000000] rounded-[4px] text-[#ffffff]">Get In Touch</button>
-            <div class="flex gap-4 mt-5">
+      <div class="ml-5 my-5 xll:flex xll:gap-5 xll:row-start-9 xll:col-start-2 xll:col-end-5">
+            <button class="w-[139px] h-[48px] bg-[#000000] rounded-[4px] text-[#ffffff] xll:w-[173px] xll:h-[56px] font-semibold">Get In Touch</button>
+            <div class="flex gap-4 mt-5 xll:my-auto">
               <a href="#">
-                <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black">
+                <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black xll:w-[56px] xll:h-[56px]">
                   <img src="/icon/linkedin.svg" alt="Link linkedin Mangali"class="hover:brightness-0 hover:invert"/>
                 </div>
               </a>
               <a href="#">
-                <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black">
+                <div class="w-[48px] h-[48px] border border-black rounded-[4px] flex items-center justify-center hover:bg-black xll:w-[56px] xll:h-[56px]">
                   <img src="/icon/twitter.png" alt="Link Twitter Mangali" class="hover:brightness-0 hover:invert"/>
                 </div>
               </a>
             </div>
       </div>
-      <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5"  >Let's<span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] mx-2 tracking-wider">talk</span>for</h1> 
-      <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5 my-3 tracking-wider">something special</h1>
-      <article class="text-[#71717a] my-5 mx-5">I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</article>
-      <p class="font-bold text-[1.25rem] leading-[1.5rem] ml-5 mt-5">mangali@gmail.com</p>
-      <p class="font-bold text-[1.25rem] leading-[1.5rem] ml-5 my-6">1234567890</p>
+        <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5 xll:text-[3rem] xll:leading-[3.5rem] xll:col-start-7 xll:row-start-3">Let's<span class="text-white text-shadow-[3px_3px_0px_black,-3px_-3px_0px_black,3px_-3px_0px_black,-3px_3px_0px_black] mx-2 tracking-wider ">talk</span>for</h1> 
+        <h1 class="text-[1.75rem] leading-[32px] font-extrabold ml-5 my-3 tracking-wider xll:text-[3rem] xll:leading-[3.5rem] xll:col-start-7 xll:col-end-12 xll:row-start-4">something special</h1>
+        <article class="text-[#71717a] my-5 mx-5 xll:text-[1.1rem] xll:col-start-7 xll:col-end-12 xll:row-start-5">I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</article>
+        <p class="font-bold text-[1.25rem] leading-[1.5rem] ml-5 mt-5 xll:text-[1.75rem]  xll:font-semibold xll:col-start-7 xll:row-start-7">mangali@gmail.com</p>
+        <p class="font-bold text-[1.25rem] leading-[1.5rem] ml-5 my-6 xll:text-[1.75rem] xll:font-semibold xll:col-start-7 xll:row-start-8">1234567890</p>
+      
      
     </section>
 
      <!--footer -->
-      <div class="h-[60px] bg-[#000000] flex justify-center items-center gap-3">
-          <p class="text-[0.75rem] text-[#ffffff]">Copyright &copy; 2025</p>
-          <p class="text-[0.75rem] text-[#ffffff]">All rights reserved.</p>
+      <div class="h-[60px] bg-[#000000] flex justify-center items-center gap-3 xll:h-[100px]">
+          <p class="text-[0.75rem] text-[#ffffff] xll:text-[1.1rem] xll:font-semibold">Copyright &copy; 2025</p>
+          <p class="text-[0.75rem] text-[#ffffff] xll:text-[1.1rem] xll:font-semibold">All rights reserved.</p>
       </div>
       <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
       <script src="/index.js"></script>
